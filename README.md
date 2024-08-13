@@ -1,18 +1,13 @@
 # Connect-Four
-Projekat koji simulira popularnu igricu Connect Four u Java programskom jeziku.
+Projekat iz predmeta CS203 - Algoritmi i strukture podataka koji simulira popularnu igricu Connect Four u Java programskom jeziku.
 
 ## Uvod
 
-Ovaj projekat je prvi projektni zadatak iz predmeta CS203 - Algoritmi i strukture podataka i predstavlja implementaciju igrice **Connect Four**. Igra je napravljena u JavaFX-u koristeći programski jezik Java u IntelliJ IDEA razvojnom okruženju.
+Ova aplikacija predstavlja implementaciju igrice **Connect Four**. Igra je napravljena u JavaFX-u koristeći programski jezik Java u IntelliJ IDEA razvojnom okruženju.
 
 ### Postavka zadatka
 
 **Connect Four** je klasična igrica za dva igrača koja se igra na tabli dimenzija 7 kolona i 6 redova. Igrači naizmenično postavljaju svoje žetone u kolone, s tim što se kolone popunjavaju od dna ka vrhu. Cilj je postaviti četiri žetona u nizu (vodoravno, vertikalno ili dijagonalno). Igra se završava kada jedan igrač postavi četiri žetona u nizu ili kada se tabla popuni.
-
-### Gameplay i mehanika
-
-- **Pokretanje igre:** Kada se igra pokrene, prikazuje se matrica 6x7 sa krugovima koji se popunjavaju kada igrači pritisnu na njih.
-- **Potezi:** Prvi igrač koristi crvene žetone, dok drugi igrač koristi žute. Svaki igrač postavlja svoj žeton u željenu kolonu, a žeton se "popunjava" od dna ka vrhu.
 
 ### Ishodi igre
 
@@ -26,6 +21,13 @@ Ovaj projekat je prvi projektni zadatak iz predmeta CS203 - Algoritmi i struktur
 3. **`checkForDraw()`** - Proverava da li je igra nerešena.
 4. **`showResult(String winner)`** - Prikazuje rezultat igre u pop-up prozoru i nudi opcije za ponovni početak ili izlazak iz igre.
 5. **`resetGame()`** - Vraća igru na početno stanje.
+
+## Izgled aplikacije
+
+Početna stranica aplikacije:
+
+![image](https://github.com/user-attachments/assets/7d3590a4-5811-4bc8-934b-66bb0f3f69a9)
+
 
 ## Zaključak
 
