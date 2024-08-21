@@ -1,35 +1,32 @@
-# Connect-Four
-Projekat iz predmeta CS203 - Algoritmi i strukture podataka koji simulira popularnu igricu Connect Four u Java programskom jeziku.
+# Connect Four - CS203 Project
 
-## Uvod
+## Introduction
 
-Ova aplikacija predstavlja implementaciju igrice **Connect Four**. Igra je napravljena u JavaFX-u koristeći programski jezik Java u IntelliJ IDEA razvojnom okruženju.
+This project is an implementation of the popular game **Connect Four**. The game is developed using JavaFX in the Java programming language within the IntelliJ IDEA development environment.
 
-### Postavka zadatka
+## Task Description
 
-**Connect Four** je klasična igrica za dva igrača koja se igra na tabli dimenzija 7 kolona i 6 redova. Igrači naizmenično postavljaju svoje žetone u kolone, s tim što se kolone popunjavaju od dna ka vrhu. Cilj je postaviti četiri žetona u nizu (vodoravno, vertikalno ili dijagonalno). Igra se završava kada jedan igrač postavi četiri žetona u nizu ili kada se tabla popuni.
+**Connect Four** is a classic two-player game played on a board with 7 columns and 6 rows. Players take turns placing their tokens in the columns, which fill from the bottom up. The objective is to align four tokens in a row (horizontally, vertically, or diagonally). The game ends when one player achieves this or when the board is completely filled.
 
-### Ishodi igre
+## Game Outcomes
 
-1. **Pobeda:** Ako jedan igrač postavi četiri uzastopna žetona, on pobeđuje. Igrači dobijaju mogućnost da ponovo igraju ili da se povuku.
-2. **Nerešena igra:** Ako je cela tabla popunjena, a nijedan igrač nije pobedio, igra je nerešena. Takođe, igrači mogu ponovo igrati ili se povući.
+- **Victory**: A player wins by placing four consecutive tokens. Afterward, players can choose to play again or exit the game.
+- **Draw**: If the board is filled completely without a winner, the game ends in a draw. Players are then given the option to restart or quit.
 
-### Metode igre
+## Game Methods
 
-1. **`dropPiece(int column)`** - Postavlja žetone u krugove.
-2. **`checkForWin(int row, int column)`** - Proverava da li je jedan igrač pobedio.
-3. **`checkForDraw()`** - Proverava da li je igra nerešena.
-4. **`showResult(String winner)`** - Prikazuje rezultat igre u pop-up prozoru i nudi opcije za ponovni početak ili izlazak iz igre.
-5. **`resetGame()`** - Vraća igru na početno stanje.
+- `dropPiece(int column)` - Inserts a token into the selected column.
+- `checkForWin(int row, int column)` - Checks if the last move resulted in a win.
+- `checkForDraw()` - Checks if the board is full and the game is a draw.
+- `showResult(String winner)` - Displays the game result in a pop-up window, offering options to restart or exit the game.
+- `resetGame()` - Resets the game board and state for a new game.
 
-## Izgled aplikacije
+## Application Interface
 
-Početna stranica aplikacije:
+The initial screen of the application looks like this:
 
 ![image](https://github.com/user-attachments/assets/7d3590a4-5811-4bc8-934b-66bb0f3f69a9)
 
+## Conclusion
 
-## Zaključak
-
-Implementirana igra **Connect Four** zadovoljava osnovne zahteve za projekat i pruža funkcionalno i interaktivno iskustvo igre za dva igrača.
-
+This Connect Four game implementation meets the essential project requirements and provides a functional and interactive gaming experience for two players.
