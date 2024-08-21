@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This project presents an implementation of the popular game **Connect Four**, developed using JavaFX in the IntelliJ IDEA environment. It was created as part of the coursework for CS203 - Algorithms and Data Structures.
+This project represents an implementation of the popular game **Connect Four**, developed using JavaFX in the IntelliJ IDEA environment. It was created as part of the coursework for CS203 - Algorithms and Data Structures.
 
 ## Task Description
 
